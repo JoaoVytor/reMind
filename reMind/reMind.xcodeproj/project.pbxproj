@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A0818F02B3240F300373D93 /* reBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0818EF2B3240F300373D93 /* reBackground.swift */; };
 		7A0818F32B32465500373D93 /* BoxCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0818F22B32465500373D93 /* BoxCardView.swift */; };
+		7A0818F52B32581700373D93 /* reBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0818F42B32581700373D93 /* reBadge.swift */; };
 		7A9523F12B30CCC5006F85AC /* reMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9523F02B30CCC5006F85AC /* reMindApp.swift */; };
 		7A9523F32B30CCC5006F85AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9523F22B30CCC5006F85AC /* ContentView.swift */; };
 		7A9523F52B30CCC6006F85AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9523F42B30CCC6006F85AC /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		7A0818EF2B3240F300373D93 /* reBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reBackground.swift; sourceTree = "<group>"; };
 		7A0818F22B32465500373D93 /* BoxCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxCardView.swift; sourceTree = "<group>"; };
+		7A0818F42B32581700373D93 /* reBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reBadge.swift; sourceTree = "<group>"; };
 		7A9523ED2B30CCC5006F85AC /* reMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9523F02B30CCC5006F85AC /* reMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reMindApp.swift; sourceTree = "<group>"; };
 		7A9523F22B30CCC5006F85AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		7A9524042B30CE74006F85AC /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
+				7A0818F42B32581700373D93 /* reBadge.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			files = (
 				7A0818F02B3240F300373D93 /* reBackground.swift in Sources */,
 				7A95240A2B30D5FC006F85AC /* Palette.swift in Sources */,
+				7A0818F52B32581700373D93 /* reBadge.swift in Sources */,
 				7A9523F32B30CCC5006F85AC /* ContentView.swift in Sources */,
 				7A9523F12B30CCC5006F85AC /* reMindApp.swift in Sources */,
 				7A0818F32B32465500373D93 /* BoxCardView.swift in Sources */,
