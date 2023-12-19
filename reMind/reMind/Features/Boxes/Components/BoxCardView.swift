@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  BoxCardView.swift
 //  reMind
 //
-//  Created by João Vitor Sousa on 18/12/23.
+//  Created by João Vitor Sousa on 19/12/23.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct BoxCardView: View {
     var body: some View {
         VStack (alignment: .leading) {
             Text("Box name")
@@ -27,5 +27,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    BoxCardView()
 }
